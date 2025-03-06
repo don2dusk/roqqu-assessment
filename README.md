@@ -43,13 +43,13 @@ To set up the project for local testing, follow these steps:
 
    ```
    PORT=3000
-   DATABASE_URL=sqlite://:memory:
+   DATABASE_URL=file:../db/roqqu.sqlite:
    ```
 
 5. Migrate the database to an SQLite database:
 
    ```bash
-   npx prisma migrate dev
+   npx prisma migrate dev # Will automatically create a database at the DATABASE_URL provided above
    ```
 
 6. To start the project, run:
