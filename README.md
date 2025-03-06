@@ -6,7 +6,7 @@ Welcome to the Roqqu Assessment project! This README will guide you through the 
 
 - [Project Overview](#project-overview)
 - [Prerequisites](#prerequisites)
-- [Installation and Testing](#local-testing)
+- [Installation and Testing](#installation-and-testing)
 - [Live URL](#live-url)
 - [Postman Documentation](#postman-documentation)
 
@@ -65,7 +65,7 @@ To set up the project for local testing, follow these steps:
 
 ## Live URL
 
-You can access the live version of the project at [Live URL](#).
+You can access the live version of the project at [Live URL](http://roqqu-api.eba-cwcssbmp.us-west-2.elasticbeanstalk.com/).
 
 ## Postman Documentation
 
