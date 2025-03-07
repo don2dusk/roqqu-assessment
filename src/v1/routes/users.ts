@@ -9,8 +9,8 @@ import {
 const router = Express.Router();
 
 router.get("/", getUsers);
-router.get("/:id", getUserById);
 router.get("/count", countTotalUsers);
+router.get("/:id", getUserById);
 router.post("/add", addUser);
 
 export default router;
